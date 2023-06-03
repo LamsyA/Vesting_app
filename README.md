@@ -48,6 +48,29 @@ Stakeholders can check their claimed token balance.
 
 `getStakeholderPostion(address _address)`: Retrieves the stakeholder details (including vesting period, stakeholder post, and more) for the provided address.
 
+## How to Navigate
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
+
+
+Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
+
+Connect your wallet and navigate the organisation page to add organisation, Stakeholder and also to add stakeholder to the white list.
+
+
+To claim your Token:
+Navigate to the user login and claim token once the admin has added you to the stakholder and to the white list
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
